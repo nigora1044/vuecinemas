@@ -1,0 +1,194 @@
+@media(max-width:1140px){
+    .film_box{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .collect_box{
+        gap: 30px;
+        overflow: hidden;
+        overflow-x: auto;
+
+    }
+    .collect_item{
+        flex-shrink: 0;
+    }
+}
+@media(max-width:992px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4,1fr);
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+@media(max-width:850px) {
+    .intro_title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .intro_text {
+        font-size: 14px;
+        line-height: 18px;
+        width: 450px;
+    }
+    .widow_title{
+        width: 400px;
+        margin-top: 30px;
+    }
+    .widow_text{
+        font-size: 16px;
+        margin: 30px 0;
+    }
+    .widow{
+        background-color: rgba(255, 255, 255, 0.7);
+        background-image: unset;
+        height: 400px;
+    }
+}
+
+@media(max-width:670px) {
+
+    .label {
+        display: block;
+    }
+
+    .list {
+        position: absolute;
+        background-color: #040D1F;
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;
+        top: -80px;
+        right: -200px;
+        height: 1000px;
+        transition: 0.5s;
+    }
+
+    .nav_link {
+        margin: 0;
+    }
+
+    #menu:checked~.list {
+        right: 0%;
+    }
+
+    .nav_content {
+        padding: 15px;
+
+    }
+    .header {
+        position: relative;
+        top: 0;
+    }
+
+
+}
+@media(max-width:700px){
+    .grid{
+        width: 90%;
+    }
+ 
+}
+@media(max-width:600px){
+    .widow_text{
+        width: 100%;
+    }
+    .film_info{
+        flex-direction: column;
+    }
+}
+@media(max-width:540px){
+    .grid{
+        width: 100%;
+    }
+    .intro_title{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .intro_text{
+        width: 400px;
+    }
+    .link{
+        width: 140px;
+        height: 40px;
+    }
+    .intro{
+        height: 500px;
+    }
+
+    .footer_content{
+        justify-content: space-evenly;
+    }
+
+    .footer_title{
+        margin-top: 15px;
+      
+    }
+
+    .footer{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+@media(max-width:455px){
+    .grid{
+        grid-template-rows: repeat(5,1fr);
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+    .box_1,
+    .box_2,
+    .box_3,
+    .box_4,
+    .box_5{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    .widow_text{
+        margin: 15px 0;
+        line-height: 20px;
+    }
+    .widow_title{
+        width: 100%;
+    }
+    .game_title{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .game_text{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+        margin: 15px 0;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 35px;
+        margin: 40px 0;
+    }
+    .collect_item{
+        width: 100%;
+    }
+    .intro_title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .intro_text{
+        width: 100%;
+        font-size: 13px;
+        margin: 30px 0;
+    }
+    .rows{
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+    }
+    .intro{
+        height: 450px;
+    }
+  
+}
